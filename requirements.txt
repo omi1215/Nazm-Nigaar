@@ -1,0 +1,11 @@
+pandas
+tensorflow
+numpy
+streamlit
+pyht
+aiohttp
+filelock
+grpcio
+requests
+websockets
+python-dotenv
