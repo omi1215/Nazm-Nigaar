@@ -60,7 +60,7 @@ model_2.load_weights('ckpt_30.weights.h5')
 if "generated_poetry" not in st.session_state:
     st.session_state.generated_poetry = ""
 
-st.title("Urdu Poetry Generator with Voice Synthesis")
+st.title("Nazm-Nigaar: Urdu Poetry Generation and Voice Conversion")
 
 # Input box for seed text and number of characters to generate
 seed_text = st.text_input("Enter a seed text:", "دل کی بات لبوں پہ نہ لانا کبھی")
