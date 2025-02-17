@@ -63,8 +63,8 @@ if "generated_poetry" not in st.session_state:
 st.title("Nazm-Nigaar: Urdu Poetry Generation and Voice Conversion")
 
 # Input box for seed text and number of characters to generate
-seed_text = st.text_input("Enter a seed text:", "دل کی بات لبوں پہ نہ لانا کبھی")
-num_generate_input = st.text_input("Enter number of characters to generate:", value="130")
+seed_text = st.text_input("Enter a seed text:", "محبت")
+num_generate_input = st.text_input("Enter number of characters to generate:", value="100")
 
 # Button to generate poetry
 if st.button("Generate Poetry"):
